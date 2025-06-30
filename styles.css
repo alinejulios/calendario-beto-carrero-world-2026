@@ -1,0 +1,21 @@
+/* Garantir altura mínima para os dias do calendário */
+.calendar-day {
+  min-height: 8rem;
+}
+
+/* Estilo para a lista de eventos */
+.events-container {
+  max-height: 24rem;
+  overflow-y: auto;
+}
+
+/* Correção para ícones Lucide */
+[data-lucide] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Garantir que a cor laranja do Paraguai funcione */
+.bg-orange-500 {
+  background-color: #f97316;
+}
